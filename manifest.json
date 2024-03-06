@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "CodeGPT Assistant",
+  "description": "Integrates your VS Code workspace with ChatGPT and Google Bard.",
+  "version": "1.0.0",
+
+  "background": {
+    "service_worker": "popup.js" 
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab", 
+    "storage"
+    
+    
+  ],
+
+  "host_permissions": [
+     
+  ]
+}
+
